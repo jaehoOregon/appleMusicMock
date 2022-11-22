@@ -13,6 +13,10 @@
 		03401E28292B684F00ABECBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03401E26292B684F00ABECBA /* Main.storyboard */; };
 		03401E2A292B685000ABECBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03401E29292B685000ABECBA /* Assets.xcassets */; };
 		03401E2D292B685000ABECBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03401E2B292B685000ABECBA /* LaunchScreen.storyboard */; };
+		03401E35292B688F00ABECBA /* ListenNowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03401E34292B688F00ABECBA /* ListenNowVC.swift */; };
+		03401E37292B706100ABECBA /* MusicGenre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03401E36292B706100ABECBA /* MusicGenre.swift */; };
+		03401E41292C935500ABECBA /* ListenNowPlaybarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03401E40292C935500ABECBA /* ListenNowPlaybarView.swift */; };
+		03401E43292C936E00ABECBA /* ListenNowPlaybarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03401E42292C936E00ABECBA /* ListenNowPlaybarView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		03401E29292B685000ABECBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03401E2C292B685000ABECBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03401E2E292B685000ABECBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03401E34292B688F00ABECBA /* ListenNowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenNowVC.swift; sourceTree = "<group>"; };
+		03401E36292B706100ABECBA /* MusicGenre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicGenre.swift; sourceTree = "<group>"; };
+		03401E40292C935500ABECBA /* ListenNowPlaybarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenNowPlaybarView.swift; sourceTree = "<group>"; };
+		03401E42292C936E00ABECBA /* ListenNowPlaybarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListenNowPlaybarView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,59 @@
 		03401E1F292B684F00ABECBA /* appleMusicMock */ = {
 			isa = PBXGroup;
 			children = (
-				03401E20292B684F00ABECBA /* AppDelegate.swift */,
-				03401E22292B684F00ABECBA /* SceneDelegate.swift */,
 				03401E24292B684F00ABECBA /* ViewController.swift */,
 				03401E26292B684F00ABECBA /* Main.storyboard */,
+				039778A3292CB5F100887315 /* Delegate */,
+				039778A4292CB5FC00887315 /* Model */,
+				039778A5292CB61600887315 /* Tab bar VCs */,
+				039778A6292CB62400887315 /* TableViewCells */,
+				039778A2292CB5E100887315 /* noUse */,
 				03401E29292B685000ABECBA /* Assets.xcassets */,
 				03401E2B292B685000ABECBA /* LaunchScreen.storyboard */,
 				03401E2E292B685000ABECBA /* Info.plist */,
 			);
 			path = appleMusicMock;
+			sourceTree = "<group>";
+		};
+		039778A2292CB5E100887315 /* noUse */ = {
+			isa = PBXGroup;
+			children = (
+				03401E42292C936E00ABECBA /* ListenNowPlaybarView.xib */,
+				03401E40292C935500ABECBA /* ListenNowPlaybarView.swift */,
+			);
+			path = noUse;
+			sourceTree = "<group>";
+		};
+		039778A3292CB5F100887315 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				03401E20292B684F00ABECBA /* AppDelegate.swift */,
+				03401E22292B684F00ABECBA /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		039778A4292CB5FC00887315 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03401E36292B706100ABECBA /* MusicGenre.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		039778A5292CB61600887315 /* Tab bar VCs */ = {
+			isa = PBXGroup;
+			children = (
+				03401E34292B688F00ABECBA /* ListenNowVC.swift */,
+			);
+			path = "Tab bar VCs";
+			sourceTree = "<group>";
+		};
+		039778A6292CB62400887315 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03401E2D292B685000ABECBA /* LaunchScreen.storyboard in Resources */,
+				03401E43292C936E00ABECBA /* ListenNowPlaybarView.xib in Resources */,
 				03401E2A292B685000ABECBA /* Assets.xcassets in Resources */,
 				03401E28292B684F00ABECBA /* Main.storyboard in Resources */,
 			);
@@ -138,8 +191,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03401E35292B688F00ABECBA /* ListenNowVC.swift in Sources */,
 				03401E25292B684F00ABECBA /* ViewController.swift in Sources */,
 				03401E21292B684F00ABECBA /* AppDelegate.swift in Sources */,
+				03401E37292B706100ABECBA /* MusicGenre.swift in Sources */,
+				03401E41292C935500ABECBA /* ListenNowPlaybarView.swift in Sources */,
 				03401E23292B684F00ABECBA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
