@@ -9,6 +9,8 @@ import UIKit
 
 class ListenNowVC: UIViewController {
 
+    var sectionTitle: [String] = ["abc", "bcd", "cde", "def"]
+    
     @IBOutlet weak var listenNowTableView: UITableView!
     @IBOutlet weak var listenNowPlaybarView: UIView!
     @IBOutlet weak var jacketImageView: UIView!
@@ -25,10 +27,11 @@ class ListenNowVC: UIViewController {
 
         // MARK: - jacketImageView - Rounded Corner
         jacketImageView.layer.cornerRadius = jacketImage.layer.frame.size.width / 9
+        
+        // MARK: - register tableview cell
+        listenNowTableView.register(UINib(nibName: "ListenNowMusicGenreTableViewCell", bundle: nil), forCellReuseIdentifier: "ListenNowMusicGenreTableViewCell")
 
     }
-    
-    
 }
 
 extension ListenNowVC: UITableViewDelegate {
@@ -41,9 +44,12 @@ extension ListenNowVC: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "listenNowTableViewCell") else { return UITableViewCell() }
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ListenNowMusicGenreTableViewCell") as? ListenNowMusicGenreTableViewCell
+        cell?.listenNowTableViewCellTitle.text = sectionTitle[indexPath.row]
+        return cell!
         
-        return cell
     }
 }
+
+
 
