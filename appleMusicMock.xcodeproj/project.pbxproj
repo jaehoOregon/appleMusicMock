@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030E62C1292E378000A183E0 /* modelPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E62C0292E378000A183E0 /* modelPractice.swift */; };
+		030E62C3292EC52000A183E0 /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E62C2292EC52000A183E0 /* MusicModel.swift */; };
 		03401E21292B684F00ABECBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03401E20292B684F00ABECBA /* AppDelegate.swift */; };
 		03401E23292B684F00ABECBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03401E22292B684F00ABECBA /* SceneDelegate.swift */; };
 		03401E25292B684F00ABECBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03401E24292B684F00ABECBA /* ViewController.swift */; };
@@ -14,9 +16,18 @@
 		03401E2A292B685000ABECBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03401E29292B685000ABECBA /* Assets.xcassets */; };
 		03401E2D292B685000ABECBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03401E2B292B685000ABECBA /* LaunchScreen.storyboard */; };
 		03401E35292B688F00ABECBA /* ListenNowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03401E34292B688F00ABECBA /* ListenNowVC.swift */; };
-		03401E37292B706100ABECBA /* MusicGenre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03401E36292B706100ABECBA /* MusicGenre.swift */; };
 		03401E41292C935500ABECBA /* ListenNowPlaybarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03401E40292C935500ABECBA /* ListenNowPlaybarView.swift */; };
 		03401E43292C936E00ABECBA /* ListenNowPlaybarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03401E42292C936E00ABECBA /* ListenNowPlaybarView.xib */; };
+		034594042930C87B00EAD3EA /* ListenNowVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034594032930C87B00EAD3EA /* ListenNowVC2.swift */; };
+		034594062930EFB500EAD3EA /* ListenNowVC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034594052930EFB500EAD3EA /* ListenNowVC3.swift */; };
+		0345940B2932EC9400EAD3EA /* Allthelostsouls.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 034594072932EC9400EAD3EA /* Allthelostsouls.jpeg */; };
+		0345940C2932EC9400EAD3EA /* SongsAboutJane.png in Resources */ = {isa = PBXBuildFile; fileRef = 034594082932EC9400EAD3EA /* SongsAboutJane.png */; };
+		0345940D2932EC9400EAD3EA /* HandsAllOver.png in Resources */ = {isa = PBXBuildFile; fileRef = 034594092932EC9400EAD3EA /* HandsAllOver.png */; };
+		0345940E2932EC9400EAD3EA /* ItWontBeSoonBeforeLong.png in Resources */ = {isa = PBXBuildFile; fileRef = 0345940A2932EC9400EAD3EA /* ItWontBeSoonBeforeLong.png */; };
+		034594102932EC9F00EAD3EA /* BackToBedlam.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0345940F2932EC9F00EAD3EA /* BackToBedlam.jpeg */; };
+		034594122932ECD100EAD3EA /* PermissionToDance.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 034594112932ECD100EAD3EA /* PermissionToDance.jpeg */; };
+		0345941629330C8300EAD3EA /* ListenNowMusicDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0345941529330C8300EAD3EA /* ListenNowMusicDetailVC.swift */; };
+		034594182933159500EAD3EA /* MusicPlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034594172933159500EAD3EA /* MusicPlayVC.swift */; };
 		03C7ED7E292CCE2300C5E158 /* ListenNowMusicGenreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C7ED7C292CCE2300C5E158 /* ListenNowMusicGenreTableViewCell.swift */; };
 		03C7ED7F292CCE2300C5E158 /* ListenNowMusicGenreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C7ED7D292CCE2300C5E158 /* ListenNowMusicGenreTableViewCell.xib */; };
 		03C7ED82292CCE4D00C5E158 /* ListenNowMadeForYouTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C7ED80292CCE4D00C5E158 /* ListenNowMadeForYouTableViewCell.swift */; };
@@ -26,6 +37,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		030E62C0292E378000A183E0 /* modelPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelPractice.swift; sourceTree = "<group>"; };
+		030E62C2292EC52000A183E0 /* MusicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicModel.swift; sourceTree = "<group>"; };
 		03401E1D292B684F00ABECBA /* appleMusicMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appleMusicMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03401E20292B684F00ABECBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03401E22292B684F00ABECBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,9 +48,18 @@
 		03401E2C292B685000ABECBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03401E2E292B685000ABECBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03401E34292B688F00ABECBA /* ListenNowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenNowVC.swift; sourceTree = "<group>"; };
-		03401E36292B706100ABECBA /* MusicGenre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicGenre.swift; sourceTree = "<group>"; };
 		03401E40292C935500ABECBA /* ListenNowPlaybarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenNowPlaybarView.swift; sourceTree = "<group>"; };
 		03401E42292C936E00ABECBA /* ListenNowPlaybarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListenNowPlaybarView.xib; sourceTree = "<group>"; };
+		034594032930C87B00EAD3EA /* ListenNowVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenNowVC2.swift; sourceTree = "<group>"; };
+		034594052930EFB500EAD3EA /* ListenNowVC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenNowVC3.swift; sourceTree = "<group>"; };
+		034594072932EC9400EAD3EA /* Allthelostsouls.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Allthelostsouls.jpeg; sourceTree = "<group>"; };
+		034594082932EC9400EAD3EA /* SongsAboutJane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SongsAboutJane.png; sourceTree = "<group>"; };
+		034594092932EC9400EAD3EA /* HandsAllOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HandsAllOver.png; sourceTree = "<group>"; };
+		0345940A2932EC9400EAD3EA /* ItWontBeSoonBeforeLong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ItWontBeSoonBeforeLong.png; sourceTree = "<group>"; };
+		0345940F2932EC9F00EAD3EA /* BackToBedlam.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BackToBedlam.jpeg; sourceTree = "<group>"; };
+		034594112932ECD100EAD3EA /* PermissionToDance.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PermissionToDance.jpeg; sourceTree = "<group>"; };
+		0345941529330C8300EAD3EA /* ListenNowMusicDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenNowMusicDetailVC.swift; sourceTree = "<group>"; };
+		034594172933159500EAD3EA /* MusicPlayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayVC.swift; sourceTree = "<group>"; };
 		03C7ED7C292CCE2300C5E158 /* ListenNowMusicGenreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenNowMusicGenreTableViewCell.swift; sourceTree = "<group>"; };
 		03C7ED7D292CCE2300C5E158 /* ListenNowMusicGenreTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListenNowMusicGenreTableViewCell.xib; sourceTree = "<group>"; };
 		03C7ED80292CCE4D00C5E158 /* ListenNowMadeForYouTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenNowMadeForYouTableViewCell.swift; sourceTree = "<group>"; };
@@ -77,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				03401E24292B684F00ABECBA /* ViewController.swift */,
+				030E62C0292E378000A183E0 /* modelPractice.swift */,
 				03401E26292B684F00ABECBA /* Main.storyboard */,
 				039778A3292CB5F100887315 /* Delegate */,
 				039778A4292CB5FC00887315 /* Model */,
@@ -84,6 +107,12 @@
 				039778A6292CB62400887315 /* TableViewCells */,
 				039778A2292CB5E100887315 /* noUse */,
 				03401E29292B685000ABECBA /* Assets.xcassets */,
+				034594072932EC9400EAD3EA /* Allthelostsouls.jpeg */,
+				0345940F2932EC9F00EAD3EA /* BackToBedlam.jpeg */,
+				034594092932EC9400EAD3EA /* HandsAllOver.png */,
+				0345940A2932EC9400EAD3EA /* ItWontBeSoonBeforeLong.png */,
+				034594112932ECD100EAD3EA /* PermissionToDance.jpeg */,
+				034594082932EC9400EAD3EA /* SongsAboutJane.png */,
 				03401E2B292B685000ABECBA /* LaunchScreen.storyboard */,
 				03401E2E292B685000ABECBA /* Info.plist */,
 			);
@@ -93,6 +122,8 @@
 		039778A2292CB5E100887315 /* noUse */ = {
 			isa = PBXGroup;
 			children = (
+				034594032930C87B00EAD3EA /* ListenNowVC2.swift */,
+				03401E34292B688F00ABECBA /* ListenNowVC.swift */,
 				03401E42292C936E00ABECBA /* ListenNowPlaybarView.xib */,
 				03401E40292C935500ABECBA /* ListenNowPlaybarView.swift */,
 			);
@@ -111,7 +142,7 @@
 		039778A4292CB5FC00887315 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				03401E36292B706100ABECBA /* MusicGenre.swift */,
+				030E62C2292EC52000A183E0 /* MusicModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -119,7 +150,9 @@
 		039778A5292CB61600887315 /* Tab bar VCs */ = {
 			isa = PBXGroup;
 			children = (
-				03401E34292B688F00ABECBA /* ListenNowVC.swift */,
+				034594052930EFB500EAD3EA /* ListenNowVC3.swift */,
+				034594172933159500EAD3EA /* MusicPlayVC.swift */,
+				0345941529330C8300EAD3EA /* ListenNowMusicDetailVC.swift */,
 			);
 			path = "Tab bar VCs";
 			sourceTree = "<group>";
@@ -197,9 +230,15 @@
 			files = (
 				03C7ED83292CCE4D00C5E158 /* ListenNowMadeForYouTableViewCell.xib in Resources */,
 				03401E2D292B685000ABECBA /* LaunchScreen.storyboard in Resources */,
+				0345940B2932EC9400EAD3EA /* Allthelostsouls.jpeg in Resources */,
+				0345940E2932EC9400EAD3EA /* ItWontBeSoonBeforeLong.png in Resources */,
+				0345940C2932EC9400EAD3EA /* SongsAboutJane.png in Resources */,
+				0345940D2932EC9400EAD3EA /* HandsAllOver.png in Resources */,
+				034594102932EC9F00EAD3EA /* BackToBedlam.jpeg in Resources */,
 				03401E43292C936E00ABECBA /* ListenNowPlaybarView.xib in Resources */,
 				03C7ED89292CDE8500C5E158 /* ListenNowMusicGenreCollectionViewCell.xib in Resources */,
 				03401E2A292B685000ABECBA /* Assets.xcassets in Resources */,
+				034594122932ECD100EAD3EA /* PermissionToDance.jpeg in Resources */,
 				03401E28292B684F00ABECBA /* Main.storyboard in Resources */,
 				03C7ED7F292CCE2300C5E158 /* ListenNowMusicGenreTableViewCell.xib in Resources */,
 			);
@@ -214,13 +253,18 @@
 			files = (
 				03401E35292B688F00ABECBA /* ListenNowVC.swift in Sources */,
 				03401E25292B684F00ABECBA /* ViewController.swift in Sources */,
+				0345941629330C8300EAD3EA /* ListenNowMusicDetailVC.swift in Sources */,
 				03C7ED82292CCE4D00C5E158 /* ListenNowMadeForYouTableViewCell.swift in Sources */,
+				030E62C3292EC52000A183E0 /* MusicModel.swift in Sources */,
 				03401E21292B684F00ABECBA /* AppDelegate.swift in Sources */,
+				030E62C1292E378000A183E0 /* modelPractice.swift in Sources */,
 				03C7ED7E292CCE2300C5E158 /* ListenNowMusicGenreTableViewCell.swift in Sources */,
-				03401E37292B706100ABECBA /* MusicGenre.swift in Sources */,
+				034594182933159500EAD3EA /* MusicPlayVC.swift in Sources */,
 				03C7ED88292CDE8500C5E158 /* ListenNowMusicGenreCollectionViewCell.swift in Sources */,
+				034594062930EFB500EAD3EA /* ListenNowVC3.swift in Sources */,
 				03401E41292C935500ABECBA /* ListenNowPlaybarView.swift in Sources */,
 				03401E23292B684F00ABECBA /* SceneDelegate.swift in Sources */,
+				034594042930C87B00EAD3EA /* ListenNowVC2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
